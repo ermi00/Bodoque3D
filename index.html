@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+
+  <title>Bodoque Celestial</title>
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+      <a-asset-item id="miModelo" src="./BodoqueAnimate.glb"></a-asset-item>
+    </a-assets>
+
+    <a-entity gltf-model="#miModelo" position="0 0 -3" scale="1 1 1"></a-entity>
+  </a-scene>
+</body>
+
+</html>
